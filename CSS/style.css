@@ -1,55 +1,78 @@
+:root {
+  --text-color: #757575;
+  --text-black-color: #212121;
+  --text-wite-color: #ffffff;
+  --text-accent: #2196f3;
+  --background-second-color: #f5f4fa;
+}
+
 body {
   background: #e5e5e5;
+  color: var(--text-color);
 }
 
 ul {
   list-style: none;
 }
+/* Шапка */
 
+.page-header {
+  background-color: var(--text-wite-color);
+}
 /* logo */
 .logo {
-  color: #2196f3;
+  color: var(--text-accent);
 }
 
 .logo-color {
-  color: #212121;
+  color: var(--text-black-color);
 }
 
 /* навигация */
 .site-nav .link:focus,
 .site-nav .link:hover {
-  color: #2196f3;
+  color: var(--text-accent);
 }
 
 .site-nav .link {
-  color: #212121;
+  color: var(--text-black-color);
 }
 
 /* вторичная навигация */
 .second-nav .link {
-  color: #757575;
+  color: var(--text-color);
 }
 
 .second-nav .link:focus,
 .second-nav .link:hover {
-  color: #2196f3;
-
-/* Герой */
-
-.hero-page .hero-title {
-    color: #FFFFFF;
+  color: var(--text-accent);
 }
 
-.section .section-title {
-    color: #212121;
+/* Герой  */
+
+.hero-page .hero-title,
+.hero-page .link {
+  color: var(--text-wite-color);
 }
 
+.hero-page .link:focus,
+.hero-page .link:hover {
+  color: var(--text-accent);
+}
 
-/* цвет фона background: #F5F4FA; */
-/* основной цвет фона  #E5E5E5; */
-/* цвет шапки #FFFFFF; */
-/* цвет подвала #2F303A; */
-/* основной цвет текста #757575; */
-/*  вторичный цыет текста #212121; */
-/* основной цвет текста #757575; */
-/* Белый цвет #FFFFFF; */
+.hero-page {
+  background-color: #2f303a;
+}
+
+/* Секции */
+
+.section .section-title,
+.section-comand .section-title {
+  color: var(--text-black-color);
+}
+
+/* Команда */
+
+.section-comand {
+  background-color: var(--background-second-color);
+}
