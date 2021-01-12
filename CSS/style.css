@@ -4,6 +4,7 @@
   --text-wite-color: #ffffff;
   --text-accent: #2196f3;
   --background-second-color: #f5f4fa;
+  --foter-bg-color: #2f303a;
 }
 
 body {
@@ -37,6 +38,9 @@ ul {
 .site-nav .link {
   color: var(--text-black-color);
 }
+.site-nav .link.current {
+  color: var(--text-accent);
+}
 
 /* вторичная навигация */
 .second-nav .link {
@@ -51,8 +55,9 @@ ul {
 /* Герой  */
 
 .hero-page .hero-title,
-.hero-page .link {
+.hero-page .button {
   color: var(--text-wite-color);
+  background-color: var(--text-accent);
 }
 
 .hero-page .link:focus,
@@ -75,4 +80,17 @@ ul {
 
 .section-comand {
   background-color: var(--background-second-color);
+}
+
+/* Подвал */
+.footer-page {
+  background-color: var(--foter-bg-color);
+}
+
+.footer-page .link {
+  color: var(--text-wite-color);
+}
+
+.logo-color.footer {
+  color: var(--text-wite-color);
 }
