@@ -1,0 +1,55 @@
+body {
+  background: #e5e5e5;
+}
+
+ul {
+  list-style: none;
+}
+
+/* logo */
+.logo {
+  color: #2196f3;
+}
+
+.logo-color {
+  color: #212121;
+}
+
+/* навигация */
+.site-nav .link:focus,
+.site-nav .link:hover {
+  color: #2196f3;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+
+/* вторичная навигация */
+.second-nav .link {
+  color: #757575;
+}
+
+.second-nav .link:focus,
+.second-nav .link:hover {
+  color: #2196f3;
+
+/* Герой */
+
+.hero-page .hero-title {
+    color: #FFFFFF;
+}
+
+.section .section-title {
+    color: #212121;
+}
+
+
+/* цвет фона background: #F5F4FA; */
+/* основной цвет фона  #E5E5E5; */
+/* цвет шапки #FFFFFF; */
+/* цвет подвала #2F303A; */
+/* основной цвет текста #757575; */
+/*  вторичный цыет текста #212121; */
+/* основной цвет текста #757575; */
+/* Белый цвет #FFFFFF; */
