@@ -76,6 +76,19 @@ ul {
   color: var(--text-black-color);
 }
 
+.section .filter {
+  background-color: var(--background-second-color);
+}
+
+.section .filter:focus,
+.section .filter:hover {
+  color: var(--text-accent);
+}
+
+.section .filter-text {
+  color: var(--text-color);
+}
+
 /* Команда */
 
 .section-comand {
@@ -93,4 +106,9 @@ ul {
 
 .logo-color.footer {
   color: var(--text-wite-color);
+}
+
+.footer-page .link:focus,
+.footer-page .link:hover {
+  color: var(--text-accent);
 }
